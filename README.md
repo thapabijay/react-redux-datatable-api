@@ -13,10 +13,10 @@ const rootReducer = combineReducers({
 ```
 
 2.Add component
-
+```
 import {DataTableRedux as DataTable} from '../../datatable';
-
-//either field or render should be included with render preferred if both are present
+```
+either field or render should be included with render preferred if both are present
 ```
 <DataTable
       fields={[
@@ -40,7 +40,7 @@ import {DataTableRedux as DataTable} from '../../datatable';
       customHeader={{'Authorization':'Bearer Token'}} />
 ```
       
-  //response from api should be in the format (I used the same format that I had in Kendo Angular 2)
+response from api should be in the format (I used the same format that I had in Kendo Angular 2)
 ```
 {"totalRecords":77,"draw":0,"data":[{"id":4,"field_a":"My Value","field_b":25,"field_c":null},{"id":1,"field_a":"Another Value","field_b":11,"field_c":"xyz"}]}
 ```
