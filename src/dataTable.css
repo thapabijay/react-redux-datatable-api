@@ -1,0 +1,7 @@
+.pagination{
+    display:inline-flex;
+  }
+  
+.datatable-wrapper .table{
+    white-space: nowrap;
+}
