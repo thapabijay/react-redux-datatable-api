@@ -16,7 +16,7 @@ const rootReducer = combineReducers({
 ```
 import {DataTableRedux as DataTable} from '../../datatable';
 ```
-either field or render should be included with render preferred if both are present
+either field or render should be included. Render is used if both are present
 ```
 <DataTable
       fields={[
